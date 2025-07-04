@@ -82,3 +82,12 @@ def end_operator_2():
     # end Parameter with '@'
     print("Python", end='@')
     print("GeeksforGeeks")
+
+def f_string_3():
+    # f-strings (formatted string literals) are a way to embed expressions inside string literals, 
+    # using curly braces {}. They were introduced in Python 3.6 and provide a concise and readable way to format strings.
+    name = "Avez"
+    age = 20
+    print(f"Hello {name}, you are {age} years old.")
+    
+f_string_3()
