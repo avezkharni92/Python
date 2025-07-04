@@ -54,7 +54,7 @@ def format_operator_1():
     amount = 150.75
     print("Amount: ${:.2f}".format(amount))
 
-format_operator_1()
+    #format_operator_1()
 
 
 def sep_operator_2(): #Output Formatting using sep and end operator
@@ -78,10 +78,14 @@ def sep_operator_2(): #Output Formatting using sep and end operator
     # Overall, the code has a constant time complexity for specifying the separator, 
     # and a linear time and space complexity for printing out the strings and separators.
 
+
 def end_operator_2():
     # end Parameter with '@'
     print("Python", end='@')
     print("GeeksforGeeks")
+
+    #end_operator_2()
+
 
 def f_string_3():
     # f-strings (formatted string literals) are a way to embed expressions inside string literals, 
@@ -90,4 +94,36 @@ def f_string_3():
     age = 20
     print(f"Hello {name}, you are {age} years old.")
     
-f_string_3()
+    #f_string_3()
+
+
+#Input and out[ut in python
+def input_output_4():
+    # Input and Output in Python
+    # Python provides built-in functions for input and output operations.
+    # The input() function is used to take input from the user, 
+    # while the print() function is used to display output on the console.
+
+    # Taking input from the user
+    user_input = input("Enter something: ")
+    print(f"You entered: {user_input}")
+
+    # Output formatting using f-strings
+    name = "Avez"
+    age = 20
+    print(f"Hello {name}, you are {age} years old.")
+
+    #input_output_4()
+
+def main():
+    # print_func()
+    # input_output()
+    # type_casting()
+    # multiple_input()
+    # find_data_types()
+    # format_operator_1()
+    # sep_operator_2()
+    # end_operator_2()
+    # f_string_3()
+    # input_output_4()
+    pass
